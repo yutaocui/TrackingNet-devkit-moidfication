@@ -124,10 +124,12 @@ A dummy example of file is provided here:
 `python metrics.py --GT_zip dummy_GT.zip --subm_zip dummy_subm.zip`
 
 
-# Complementary Functions are as follows:
 
 
-# 1. Unzip the frames and record all the bad zips
+# $\color{red}{Complementary Functions are as follows:}$
+
+
+## 1. Unzip the frames and record all the bad zips
 
 `python process_bad_frame.py --tracking_dir=<TRACKINGNET_DATA_DIR> ---bad_zips_csv=<SAVE_BAD_ZIP_CSV_PATH> (default is 'bad_zips.csv')`
 
@@ -136,13 +138,13 @@ It will generate `bad_zips.csv` to record the bad zips in the following format:
 `'trunk_name','zip_name','link','zip_path'`
 
 
-# 2. Download the detected bad zips
+## 2. Download the detected bad zips
 
 `python download_bad_zips.py --tracking_dir=<NEW_ZIPS_DATA_DIR>`
 
 It will download the zips in 'bad_zips.csv'.
 
-# 3. Replace the bad zips
+## 3. Replace the bad zips
 
 `python replace_bad_zips.py --old_trackingnet_dir=<TRACKINGNET_DATA_DIR> --new_zips_dir=<NEW_ZIPS_DATA_DIR> --bad_csv=<BAD_ZIP_CSV_PATH>`
 
