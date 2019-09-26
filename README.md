@@ -126,7 +126,7 @@ A dummy example of file is provided here:
 
 
 
-# $\color{red}{Complementary Functions are as follows:}$
+# Complementary Functions are as follows:
 
 
 ## 1. Unzip the frames and record all the bad zips
