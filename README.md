@@ -131,7 +131,7 @@ A dummy example of file is provided here:
 
 ## 1. Unzip the frames and record all the bad zips
 
-`python process_bad_frame.py --tracking_dir=<TRACKINGNET_DATA_DIR> ---bad_zips_csv=<SAVE_BAD_ZIP_CSV_PATH> (default is 'bad_zips.csv')`
+`python process_bad_frame.py --trackingnet_dir=<TRACKINGNET_DATA_DIR> ---bad_zips_csv=<SAVE_BAD_ZIP_CSV_PATH> (default is 'bad_zips.csv')`
 
 It will generate `bad_zips.csv` to record the bad zips in the following format:
 
