@@ -65,7 +65,7 @@ if __name__ == "__main__":
     print("CHUNKS:", args.chunk)
     print("DATA:", args.data)
 
-    main(old_trackingnet_dir=args.trackingnet_dir,
+    main(old_trackingnet_dir=args.old_trackingnet_dir,
          new_tracking_dir=args.new_zips_dir,
          bad_csv=args.bad_csv,
          chunks=args.chunk,
